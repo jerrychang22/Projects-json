@@ -21,7 +21,7 @@ def main():
             projectd = {}
             projectd['id'] = length - i
             for item in projects[i]:
-                keypair = item.split(':')
+                keypair = item.split(': ')
                 projectd[keypair[0]] = keypair[1]
             output['items'].append(projectd)
 
